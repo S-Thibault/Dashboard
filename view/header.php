@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
     <title>Dashboard</title>
 
   </head>
@@ -21,4 +21,32 @@
 
 </header>
 
-  <body>
+<body>
+  
+<div class="page-content p-5" id="content">
+
+  <div style ="width:auto" class="row align-items-center">
+
+<!-- Toggle button -->
+<div class="col-2">
+  <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold"></small></button>
+</div>
+
+
+<div class="col-8">
+  <h2 class="display-4 text-white text-center"> Gestion d'achat de matériel</h2>
+</div>
+
+  <!-- Search form -->
+  <div class="col-2">
+  <div class="flexbox">
+    <div class="search">
+      <div>
+        <input type="text" placeholder="Search . . ." required>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+  <div class="separator"></div>

@@ -22,19 +22,19 @@ include 'view/header.php';
             </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
+      <a href="#" class="nav-link text-dark font-italic bg-light">
                 <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
                 About
             </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
+      <a href="#" class="nav-link text-dark font-italic bg-light">
                 <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
                 Services
             </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
+      <a href="#" class="nav-link text-dark font-italic bg-light">
                 <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
                 Gallery
             </a>
@@ -45,25 +45,25 @@ include 'view/header.php';
 
   <ul class="nav flex-column bg-white mb-0">
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
+      <a href="#" class="nav-link text-dark font-italic bg-light">
                 <i class="fa fa-area-chart mr-3 text-primary fa-fw"></i>
                 Area charts
             </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
+      <a href="#" class="nav-link text-dark font-italic bg-light">
                 <i class="fa fa-bar-chart mr-3 text-primary fa-fw"></i>
                 Bar charts
             </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
+      <a href="#" class="nav-link text-dark font-italic bg-light">
                 <i class="fa fa-pie-chart mr-3 text-primary fa-fw"></i>
                 Pie charts
             </a>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
+      <a href="#" class="nav-link text-dark font-italic bg-light">
                 <i class="fa fa-line-chart mr-3 text-primary fa-fw"></i>
                 Line charts
             </a>
@@ -73,24 +73,7 @@ include 'view/header.php';
 <!-- End vertical navbar -->
 
 <!-- Page content holder -->
-<div class="page-content p-5" id="content">
-  <!-- Toggle button -->
-  <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold"></small></button>
 
-  <!-- Demo content -->
-  <h2 class="display-4 text-white"> Gestion d'achat de matériel</h2>
-
-  <!-- Search form -->
-  <div class="flexbox">
-    <div class="search">
-
-      <div>
-        <input type="text" placeholder="Search . . ." required>
-      </div>
-    </div>
-  </div>
-
-  <div class="separator"></div>
 
 
   <div class="container">
