@@ -3,8 +3,10 @@
   <head>
       <meta charset="utf-8">
       <meta content="Olivier PRIEUR, Emma LEGER and Sylvain THIBAULT" name="author">
+
+      <title><?= App::getInstance()->title; ?></title>
       <link rel="stylesheet" href="view/css/style.css">
-      <!-- CSS only -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- JS, Popper.js, and jQuery -->
@@ -22,7 +24,7 @@
 </header>
 
 <body>
-  
+
 <div class="page-content p-5" id="content">
 
   <div style ="width:auto" class="row align-items-center">

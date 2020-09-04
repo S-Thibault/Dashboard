@@ -73,8 +73,16 @@ include 'view/header.php';
 <!-- End vertical navbar -->
 
 <!-- Page content holder -->
+<div class="container">
 
-
+       <ul class="nav nav-tabs">
+         <li class="nav-item"><a class="nav-link active" href="#">Electroménager</a></li>
+         <li class="nav-item"><a class="nav-link text-white" href="#">TV-HIFI</a></li>
+         <li class="nav-item"><a class="nav-link text-white" href="#">Bricolage</a></li>
+         <li class="nav-item"><a class="nav-link text-white" href="#">Voiture</a></li>
+       </ul>
+     </nav>
+   </div>
 
   <div class="container">
     <div class="row">
@@ -120,6 +128,7 @@ include 'view/header.php';
                 </div>
             </div>
         </div>
+
       <div class="bg-white p-5 rounded my-5 shadow-sm">
         <p class="lead font-italic mb-0 text-muted">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
           irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
