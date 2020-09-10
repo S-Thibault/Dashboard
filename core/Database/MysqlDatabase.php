@@ -4,8 +4,6 @@
 
     use \PDO;
 
-
-
     class MysqlDatabase extends Database{
 
         //Initialiser les paramètres de connexion à la BDD
@@ -14,10 +12,8 @@
         private $db_pass;
         private $db_host;
 
-
         //stocker les paramètres de connexions
         private $pdo;
-
 
 
         /**
@@ -37,7 +33,6 @@
         }
 
 
-
         /**
          * Générer le PDO
          * Exécuter la connexion à la BDD une seule fois
@@ -48,7 +43,7 @@
             if($this->pdo === null){
 
                 //Créer une instance de l'objet PDO
-                $pdo = new PDO('mysql:dbname=mvc-blog;host=localhost', 'root', '');
+                $pdo = new PDO('mysql:dbname=dashboard;host=localhost', 'root', '');
 
                 //si le connexion à la BDD n'est pas établi
                 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -59,7 +54,6 @@
 
             return $this->pdo;
         }
-
 
 
         /**
@@ -99,7 +93,6 @@
             }
             return $datas;  //récupérer les résultats
         }
-
 
 
         /**
@@ -143,7 +136,6 @@
         }
 
 
-
         /**
          * Récupérer l'id du dernier article ajouté dans la BDD
          * @return int
@@ -153,7 +145,6 @@
         }
 
     }
-
 
 
 ?>

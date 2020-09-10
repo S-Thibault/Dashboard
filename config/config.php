@@ -3,11 +3,10 @@
     // configuration de connextion
     return array(
       "db_user" => "root",
-      "db_pass" => "root",
+      "db_pass" => "",
       "db_host" => "localhost",
-      "db_name" => "blog"
+      "db_name" => ""
   );
 
 
 ?>
-  

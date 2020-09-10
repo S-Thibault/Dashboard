@@ -60,7 +60,6 @@
         }
 
 
-
         /**
          * Afficher l'article de la single page en fonction de son id
          */
@@ -70,6 +69,5 @@
         }
 
     }
-
 
 ?>

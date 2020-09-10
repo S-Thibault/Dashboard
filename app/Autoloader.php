@@ -2,7 +2,6 @@
 
   namespace App;
 
-
   class Autoloader{
 
       /**
@@ -11,8 +10,6 @@
       static function register(){
           spl_autoload_register(array(__CLASS__, 'autoload'));
       }
-
-
 
       /**
        * Inclure le fichier correspondant à notre classe

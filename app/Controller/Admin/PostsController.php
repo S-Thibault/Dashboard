@@ -21,7 +21,7 @@
          * @return Contenu html
          */
         public function index(){
-            $posts = $this->Post->all();
+            $posts = $this->Post->last();
             $this->render('admin.posts.index', compact('posts'));
         }
 

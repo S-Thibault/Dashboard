@@ -12,7 +12,6 @@
         protected $template;
 
 
-
         /**
          * Permet d'afficher le contenu html sur la vue à afficher
          * @param  $view        page à utiliser
@@ -27,7 +26,6 @@
         }
 
 
-
         /**
          * rediriger l'utilisateur si la page demandée n'existe pas
          */
@@ -35,8 +33,6 @@
              header('HTTP/1.0 404 Not Found');
              die('page introuvable');
          }
-
-
 
          /**
          * rediriger l'utilisateur si l'accès n'est pas autorisé
@@ -46,7 +42,5 @@
             die('accès interdit');
         }
     }
-
-
 
 ?>

@@ -4,14 +4,10 @@
 
     use Core\Table\Table;
 
-
-
     class PostTable extends Table{
 
         //définir un nom de table pour les articles
         protected $table = 'articles';
-
-
 
     	/**
          * Récupère les derniers articles
@@ -25,7 +21,6 @@
                 ORDER BY articles.id DESC
             ");
         }
-
 
 
         /**
@@ -45,7 +40,6 @@
         }
 
 
-
         /**
          * Récupère un article en liant la catégorie associée
          * @param $id int
@@ -56,7 +50,8 @@
                 SELECT articles.id, articles.titre, articles.lieuachat, articles.adresseachat, articles.urlachat, articles.ref, articles.dateachat, articles.datefingarantie, articles.prix, articles.conseilsentretien, articles.phototicketachat, articles.manuelutilisation, categories.titre as categorie
                 FROM articles
                 LEFT JOIN categories ON category_id = categories.id
-                WHERE articles.id = ?",
+                WHERE articles.id = ?
+                ORDER BY articles.id DESC",
                 [$id], true
             );
         }
