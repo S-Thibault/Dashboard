@@ -27,18 +27,21 @@
 
     <body>
 
-      <div class="page-content p-5" id="content">
+      <div class="page-content p-3" id="content">
 
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
         <div style ="" class="row align-items-center">
 
       <!-- Toggle button -->
       <div class="col-2">
-        <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold"></small></button>
+        <button id="sidebarCollapse" class="btn btn-bubble height="100><i class="fa fa-bars mr-2"></i></button>
       </div>
 
 
       <div class="col-8">
-        <h2 class="display-4 text-center"> Dashboard</h2>
+        <div class="wrapper"><h1>Dashboard</h1></div>
       </div>
 
         <!-- Search form -->
