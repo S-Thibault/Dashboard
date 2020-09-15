@@ -46,11 +46,6 @@
       $string2[] = "'" . $post->titre . "'";
     ?>
 
-    <?php
-    //print_r($string1)
-    //echo $string2;
-    ?>
-
     <?php endforeach; ?>
 
   </div>
@@ -65,7 +60,6 @@ var myChart = new Chart(ctx, {
   type: 'bar',
   data: {
     labels: [<?php echo implode(",", $string2); ?>],
-    //labels: ['Electroménager','Jardinage', 'dhfjdhfjdjf', 'errytuiii', 'msztfdhjghm', 'xslfjdshgjh'],
     datasets: [{
       label: 'Prix des articles en €',
       data: [<?php echo implode(",", $string); ?>],
