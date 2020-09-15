@@ -29,9 +29,7 @@
 
       <div class="page-content p-3" id="content">
 
-        <div id='stars'></div>
-        <div id='stars2'></div>
-        <div id='stars3'></div>
+
         <div style ="" class="row align-items-center">
 
       <!-- Toggle button -->
@@ -55,4 +53,12 @@
         </div>
       </div>
       </div>
+
+ <button id="demo" class="btn btn-md btn-outline-secondary">Show</button>
+ <section id='Show-stars'>
+ <div id='stars'></div>
+ <div id='stars2'></div>
+ <div id='stars3'></div>
+</section>
+
 <div class="separator"></div>
